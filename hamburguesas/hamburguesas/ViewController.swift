@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     let listaDePaises = ColeccionDePaises()
     let listaDeHamburguesas = ColeccionDeHamburguesas()
-    
+    let colores = Colores()
     
     @IBOutlet weak var lblPais: UILabel!
     
@@ -31,9 +31,12 @@ class ViewController: UIViewController {
 
 
     @IBAction func quieroUnaHamburguesa() {
-        //lblPais.text = "Mexico"
+        //
         lblPais.text = listaDePaises.obtenertPais()
         lblHamburguesa.text = listaDeHamburguesas.obtenerHamburguesa()
+        let colorAleatorio = colores.regresaColorAleatorio()
+        view.backgroundColor = colorAleatorio
+        view.tintColor = colorAleatorio
     }
 }
 

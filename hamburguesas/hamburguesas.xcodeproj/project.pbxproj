@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B36D4121C6003DB00551905 /* Colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B36D4111C6003DB00551905 /* Colores.swift */; };
 		4B8F95FE1C5FF7F70079AE90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F95FD1C5FF7F70079AE90 /* AppDelegate.swift */; };
 		4B8F96001C5FF7F70079AE90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8F95FF1C5FF7F70079AE90 /* ViewController.swift */; };
 		4B8F96031C5FF7F70079AE90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8F96011C5FF7F70079AE90 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B36D4111C6003DB00551905 /* Colores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colores.swift; sourceTree = "<group>"; };
 		4B8F95F81C5FF7F60079AE90 /* hamburguesas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hamburguesas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8F95FC1C5FF7F70079AE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B8F95FD1C5FF7F70079AE90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				4B8F96061C5FF7F70079AE90 /* LaunchScreen.xib */,
 				4B8F95FB1C5FF7F70079AE90 /* Supporting Files */,
 				4B8F961D1C5FFA430079AE90 /* Datos.swift */,
+				4B36D4111C6003DB00551905 /* Colores.swift */,
 			);
 			path = hamburguesas;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				4B8F96001C5FF7F70079AE90 /* ViewController.swift in Sources */,
 				4B8F95FE1C5FF7F70079AE90 /* AppDelegate.swift in Sources */,
 				4B8F961E1C5FFA430079AE90 /* Datos.swift in Sources */,
+				4B36D4121C6003DB00551905 /* Colores.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +413,7 @@
 				4B8F96191C5FF7F70079AE90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B8F961A1C5FF7F70079AE90 /* Build configuration list for PBXNativeTarget "hamburguesasTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				4B8F961C1C5FF7F70079AE90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
